@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#content {
+    margin: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+video {
+    display: block;
+    margin: 0 auto; 
+    max-width: 800px;
+    height: auto;
+}
+
+::cue {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    font-size: 16px;
+}
+
+.controls button[data-state="subtitles"] {
+    height: 85%;
+    text-indent: 0;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #666;
+    background: #000;
+    border-radius: 2px;
+  }
